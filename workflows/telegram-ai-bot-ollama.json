@@ -63,7 +63,7 @@
         "resource": "message",
         "operation": "sendMessage",
         "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
-        "text": "={{ JSON.stringify($json) }}",
+        "text": "={{ $json.output }}",
         "replyMarkup": "none",
         "additionalFields": {}
       },
