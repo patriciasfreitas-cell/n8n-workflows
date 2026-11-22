@@ -10,6 +10,8 @@ Portfólio de fluxos de automação que criei no **n8n**, rodando em um containe
 
 ## Telegram AI Bot com Ollama
 
+![Fluxo Telegram AI Bot com Ollama no n8n](workflows/telegram-ai-bot-ollama.png)
+
 ```
 Telegram Trigger  →  AI Agent  →  Enviar mensagem (Telegram)
                         ↑
